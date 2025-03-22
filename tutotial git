@@ -1,0 +1,54 @@
+instalando o git
+git-scm.com
+
+
+outro forma 
+winget install --id Git.Git -e --source winget
+
+Crie um Pasta para seu projeto;
+
+Abra o vs code;
+Acesse  mesma pasta pelo vs code;
+Abra um novo terminal;
+
+Verificando a versão do git
+ git --version 
+Inicializando o projeto
+git init;
+para verificar os arquivos antes de colocar no git damos o comando
+git status
+
+Colocando o arquivo no escopo do Projeto git
+git add e o nome do arquivo
+Para adicionar varios arquivos ao mesmo tempo
+git .
+Para virificarmos damos o git status.
+
+Save points - Para copiar o arquivo para o git o comando é
+git commit -a -m "mensagem tipo um comentario"
+
+opa provavelmente deu um erro!!!
+
+para corrigir o erro
+git config --global user.email "seuemail@example.com"
+com o email que foi utilizado para criar a conta no git
+
+git config --global user.name "Seu Nome"
+
+Primeira Parte completa
+
+Agora vamos criar um repositorio no git e lincar com nosso projeto
+
+Enviando arquivos a um repositório existente a partir da linha de comando
+Vinculando o repositorio com nosso Projeto
+git remote add origem https://github.com/Prof-Joao-Evangelista-73/tutorial-git.git
+
+git remote add https://github.com/Prof-Joao-Evangelista-73/toturial_git_aula1.git
+Criando o ponto de ligação entre os mesmos;
+
+Um branch é uma ramificação do código principal de um projeto, que permite que os desenvolvedores trabalhem em novas funcionalidades sem comprometer o código já existente. 
+git branch -M main 
+Enviando os arquivos para o respositorio via comando;
+git push -u origin main
+no meu caso foi https://github.com/Prof-Joao-Evangelista-73/tutorial-git.git
+Lembre-se que pode ser solicitado o login novamente;
